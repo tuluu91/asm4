@@ -185,7 +185,7 @@ html {
 }
 /* ipad end */
 
- /* iphone */
+/* iphone */
  @media only screen and (max-width: 767px) {
     #list-name {
         display: none;
@@ -194,6 +194,28 @@ html {
     .text-heading {
         display: none;
     }
+
+    .logo-home {
+        padding: 5px;
+    }
+
+    .seach {
+        margin-left: 0;
+    }
+
+    .nav {
+        font-size: 10px;
+    }
+
+    img.logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    i.menu-icon.ti-angle-double-down {
+        width: 50px;
+    }
 }
 
  /* iphone end */
+
